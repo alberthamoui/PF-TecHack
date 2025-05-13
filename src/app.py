@@ -42,6 +42,7 @@ def historico():
 
     return render_template("historico.html", registros=reversed(registros), alertas=alertas)
 
+
 @app.route('/exportar')
 def exportar_csv():
     return send_file(os.path.join(os.path.dirname(__file__), "..", "logs.csv"), as_attachment=True)

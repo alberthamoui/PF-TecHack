@@ -1,23 +1,13 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
+logs.csv
+static/grafico_alertas.png
+
+# Bytecode do Python
+src/__pycache__/
 *.py[cod]
-*$py.class
 
-# Caches
-.cache/
-*.log
+# Git (caso suba para GitHub)
+.git/
 
-# Virtual Environment
-venv/
-env/
-.venv/
-
-# VS Code config
-.vscode/
-
-# Python notebooks
-*.ipynb_checkpoints
-
-# OS files
+# Arquivos temporários e do sistema (precaução)
 .DS_Store
 Thumbs.db
